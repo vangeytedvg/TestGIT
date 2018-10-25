@@ -3,7 +3,7 @@
   Main forms of the application.
   This application can also be the base of 
   shopping list, a todo or whatever...
-  Copyright(c) Danny Van Geyte (DaVaGe)
+  By Danny Van Geyte (DaVaGe)
   Version 0.0.1
 */
 
@@ -17,6 +17,7 @@ import './model/note.dart';
 import './ui/details_screen.dart';
 import 'package:barcode_scan/barcode_scan.dart';
 
+// Entry point
 void main() => runApp(MaterialApp(
       theme: ThemeData(
           brightness: Brightness.dark,
